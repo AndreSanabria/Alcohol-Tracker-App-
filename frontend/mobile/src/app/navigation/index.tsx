@@ -1,14 +1,10 @@
-import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
-import BottomTabs from './BottomTabs';
-
-const theme = {
-  ...DefaultTheme,
-  colors: { ...DefaultTheme.colors, background: '#F9F6EF' },
-};
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import BottomTabs from "./BottomTabs";
 
 export default function RootNavigation() {
   return (
-    <NavigationContainer theme={theme}>
+    <NavigationContainer>
       <BottomTabs />
     </NavigationContainer>
   );

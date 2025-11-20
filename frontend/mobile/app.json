@@ -29,6 +29,6 @@
     "plugins": [
       "expo-sqlite"
     ],
-    "entryPoint": "src/index.ts"
+    "entryPoint": "./src/index.ts"
   }
 }
